@@ -136,17 +136,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# datasets and projects
-datasets/
-runs/
+# datasets and projects (tracked via Git LFS)
+# datasets/
+# runs/
 wandb/
 tests/
 .DS_Store
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-weights/
+# weights/  (training weights tracked via Git LFS)
 *.weights
-*.pt
+# *.pt  (tracked via Git LFS)
 *.pb
 *.onnx
 *.engine
